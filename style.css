@@ -290,6 +290,14 @@ grid-area: 1/1;
     }
 
 
+    /* HOMEPAGE AND RESULT SECTION || GENERAL STYLING FOR OVERLAP */
+.homepage__result {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+}
+
+    
     /* RESULT SECTION FOR THE SMALL SCREEN || MEDIA QUERY */
     .result {
 background-color:hsl(200, 24%, 40%) ;
@@ -298,7 +306,7 @@ padding: 20px;
 border-radius: 0;
 color: var(--RTCOLOR);
 margin-left: 0;
-z-index: 999;
+
 }
 
 
@@ -314,10 +322,11 @@ display: flex;
 justify-content: center;
 align-items: center;
 margin-left: 0;
-z-index: 999;
+z-index: 10;
 }
 
 }
+
 
 
 
